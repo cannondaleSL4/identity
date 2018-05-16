@@ -22,7 +22,8 @@ import java.util.TreeSet;
 public class User {
     @Id
     @Column(name= "id_user")
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+//    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue
     private Integer id;
 
     @Column(name = "email")
